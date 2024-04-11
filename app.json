@@ -21,7 +21,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.MusicPlayer"
+      "package": "com.music.player"
     },
     "plugins": ["expo-router"],
     "web": {
