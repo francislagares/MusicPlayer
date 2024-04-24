@@ -5,8 +5,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 const App = () => {
   return (
     <SafeAreaProvider>
-      <RootNavigation />
       <StatusBar style='auto' />
+      <RootNavigation />
     </SafeAreaProvider>
   );
 };

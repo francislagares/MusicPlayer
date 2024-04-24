@@ -25,10 +25,13 @@ const TabsNavigation = () => {
           borderTopRightRadius: 20,
           borderTopWidth: 0,
           paddingTop: 8,
+          paddingBottom: 10,
+          height: 70,
+          bottom: 0,
         },
         tabBarBackground: () => (
           <BlurView
-            intensity={95}
+            intensity={15}
             style={{
               ...StyleSheet.absoluteFillObject,
               overflow: 'hidden',
@@ -55,7 +58,7 @@ const TabsNavigation = () => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
               name='playlist-play'
-              size={20}
+              size={28}
               color={color}
             />
           ),
@@ -66,14 +69,14 @@ const TabsNavigation = () => {
         options={{
           title: 'Songs',
           tabBarIcon: ({ color }) => (
-            <Ionicons name='musical-notes-sharp' size={20} color={color} />
+            <Ionicons name='musical-notes-sharp' size={24} color={color} />
           ),
         }}
       />
       <Tabs.Screen
         name='artists'
         options={{
-          title: 'Songs',
+          title: 'Artists',
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name='users-line' size={20} color={color} />
           ),

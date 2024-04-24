@@ -64,7 +64,6 @@
       }
     ],
     // eslint-plugin-import rules
-    "import/named": "error",
     "import/default": "error",
     "import/export": "error",
     "import/prefer-default-export": 0,
